@@ -38,10 +38,10 @@ defmodule WallabyTest.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      #      {:wallaby, "~> 0.19.2", [runtime: false, only: :test]}
-#      {:wallaby, github: "keathley/wallaby", ref: "a6f232c", only: :test}, #good
-      {:wallaby, github: "keathley/wallaby", ref: "29aed59af204b8a012053f7ab26a8138149f134d", only: :test}
-
+      # {:wallaby, "~> 0.19.2", [runtime: false, only: :test]}
+      # {:wallaby, github: "keathley/wallaby", ref: "a6f232c", only: :test}, #good
+      # {:wallaby, github: "keathley/wallaby", ref: "29aed59af204b8a012053f7ab26a8138149f134d", only: :test}
+      {:wallaby, "0.19.1", [runtime: false, only: :test]}
 
     ]
   end
